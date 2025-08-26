@@ -1,0 +1,2 @@
+Input Parameters,Expected Output,Actual Output,Result
+"{'customer_id': 1, 'bill_type': 'electricity', 'account_number': '1', 'amount': 100.0}","{'amount': -100.0, 'account_id': 1, 'to_customer': 1, 'id': 5, 'type': 'BILL_PAY_ELECTRICITY', 'from_customer': 1}","{'exception': ""'Transaction' object has no attribute 'to_dict'""}",FAIL

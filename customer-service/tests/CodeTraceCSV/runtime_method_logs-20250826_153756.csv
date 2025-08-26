@@ -1,0 +1,231 @@
+timestamp,Event Type,Python File,Class Name,Method Name,Short Summary,Input Type,Input Parameters,Return Type,Output Response,Error,API Path,HTTP Method
+2025-08-26T10:15:18.222007,ENTER,app.controllers.customer_controller,,create,create,json/form/args,{},,,,/api/customers,OPTIONS
+timestamp,Event Type,Python File,Class Name,Method Name,Short Summary,Input Type,Input Parameters,Return Type,Output Response,Error,API Path,HTTP Method
+2025-08-26T10:15:18.222007,ENTER,app.controllers.customer_controller,,create,create,json/form/args,{},,,,/api/customers,OPTIONS
+2025-08-26T10:15:18.222007,EXIT,app.controllers.customer_controller,,create,create,json/form/args,{},Response,,,/api/customers,OPTIONS
+2025-08-26T10:15:18.222007,EXIT,app.controllers.customer_controller,,create,create,json/form/args,{},Response,,,/api/customers,OPTIONS
+2025-08-26T10:15:18.473148,ENTER,app.controllers.customer_controller,,get_all,get_all,json/form/args,{},,,,/api/customers/,OPTIONS
+2025-08-26T10:15:18.473148,EXIT,app.controllers.customer_controller,,get_all,get_all,json/form/args,{},Response,,,/api/customers/,OPTIONS
+2025-08-26T10:15:18.669644,ENTER,app.controllers.customer_controller,,get_all,get_all,json/form/args,{},,,,/api/customers/,OPTIONS
+2025-08-26T10:15:18.671911,ENTER,app.controllers.customer_controller,,get_all,get_all,json/form/args,{},,,,/api/customers/,GET
+2025-08-26T10:15:18.669644,EXIT,app.controllers.customer_controller,,get_all,get_all,json/form/args,{},Response,,,/api/customers/,OPTIONS
+2025-08-26T10:15:18.680122,ENTER,controllers.customer_controller,,get_all,get_all,runtime,{},,,,,
+2025-08-26T10:15:18.686312,ENTER,services.customer_service,,get_all_customers,get_all_customers,runtime,{},,,,,
+2025-08-26T10:15:18.686312,EXIT,services.customer_service,,get_all_customers,get_all_customers,runtime,{},list,"[{'customer_name': 'John Doe', 'id': 1}, {'customer_name': 'Jane Smith', 'id': 2}, {'customer_name': 'Peter Jones', 'id': 3}, {'customer_name': 'Charlie', 'id': 4}]",,,
+2025-08-26T10:15:18.680122,EXIT,controllers.customer_controller,,get_all,get_all,runtime,{},tuple,"[{'direct_passthrough': False}, 200]",,,
+2025-08-26T10:15:18.671911,EXIT,app.controllers.customer_controller,,get_all,get_all,json/form/args,{},Response,"[
+  {
+    ""customerName"": ""John Doe"",
+    ""id"": 1
+  },
+  {
+    ""customerName"": ""Jane Smith"",
+    ""id"": 2
+  },
+  {
+    ""customerName"": ""Peter Jones"",
+    ""id"": 3
+  },
+  {
+    ""customerName"": ""Charlie"",
+    ""id"": 4
+  }
+]
+",,/api/customers/,GET
+2025-08-26T10:15:18.857294,ENTER,app.controllers.customer_controller,,get_all,get_all,json/form/args,{},,,,/api/customers/,GET
+2025-08-26T10:15:18.860719,ENTER,controllers.customer_controller,,get_all,get_all,runtime,{},,,,,
+2025-08-26T10:15:18.864029,ENTER,services.customer_service,,get_all_customers,get_all_customers,runtime,{},,,,,
+2025-08-26T10:15:18.864029,EXIT,services.customer_service,,get_all_customers,get_all_customers,runtime,{},list,"[{'customer_name': 'John Doe', 'id': 1}, {'customer_name': 'Jane Smith', 'id': 2}, {'customer_name': 'Peter Jones', 'id': 3}, {'customer_name': 'Charlie', 'id': 4}]",,,
+2025-08-26T10:15:18.860719,EXIT,controllers.customer_controller,,get_all,get_all,runtime,{},tuple,"[{'direct_passthrough': False}, 200]",,,
+2025-08-26T10:15:18.857294,EXIT,app.controllers.customer_controller,,get_all,get_all,json/form/args,{},Response,"[
+  {
+    ""customerName"": ""John Doe"",
+    ""id"": 1
+  },
+  {
+    ""customerName"": ""Jane Smith"",
+    ""id"": 2
+  },
+  {
+    ""customerName"": ""Peter Jones"",
+    ""id"": 3
+  },
+  {
+    ""customerName"": ""Charlie"",
+    ""id"": 4
+  }
+]
+",,/api/customers/,GET
+2025-08-26T10:15:22.803019,ENTER,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},,,,/api/accounts/customer/1,OPTIONS
+2025-08-26T10:15:22.805036,ENTER,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},,,,/api/accounts/customer/1,OPTIONS
+2025-08-26T10:15:22.802510,ENTER,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},,,,/api/transactions/customer/1,OPTIONS
+2025-08-26T10:15:22.804034,ENTER,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},,,,/api/transactions/customer/1,OPTIONS
+2025-08-26T10:15:22.805036,EXIT,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},Response,,,/api/accounts/customer/1,OPTIONS
+2025-08-26T10:15:22.802510,EXIT,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},Response,,,/api/transactions/customer/1,OPTIONS
+2025-08-26T10:15:22.804034,EXIT,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},Response,,,/api/transactions/customer/1,OPTIONS
+2025-08-26T10:15:22.803019,EXIT,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},Response,,,/api/accounts/customer/1,OPTIONS
+2025-08-26T10:15:23.067775,ENTER,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},,,,/api/accounts/customer/1,GET
+2025-08-26T10:15:23.071799,ENTER,controllers.account_controller,,get_by_customer_id,get_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:23.075421,ENTER,services.account_service,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:23.079426,ENTER,db.account_repo,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:23.079426,EXIT,db.account_repo,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},Account,"{'customer_id': 1, 'account_number': '1001', 'balance': 100000.0, 'id': 1}",,,
+2025-08-26T10:15:23.075421,EXIT,services.account_service,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},Account,"{'customer_id': 1, 'account_number': '1001', 'balance': 100000.0, 'id': 1}",,,
+2025-08-26T10:15:23.071799,EXIT,controllers.account_controller,,get_by_customer_id,get_by_customer_id,runtime,{'customer_id': 1},tuple,"[{'direct_passthrough': False}, 200]",,,
+2025-08-26T10:15:23.067775,EXIT,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},Response,"{
+  ""account_number"": ""1001"",
+  ""balance"": 100000.0,
+  ""customer_id"": 1,
+  ""id"": 1
+}
+",,/api/accounts/customer/1,GET
+2025-08-26T10:15:23.147057,ENTER,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},,,,/api/transactions/customer/1,GET
+2025-08-26T10:15:23.152492,ENTER,controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:23.156802,ENTER,services.transaction_service,,get_transactions_by_customer_id,get_transactions_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:23.158459,ENTER,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},,,,/api/accounts/customer/1,GET
+2025-08-26T10:15:23.162141,ENTER,controllers.account_controller,,get_by_customer_id,get_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:23.184597,ENTER,services.account_service,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:23.186572,ENTER,db.account_repo,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:23.156802,EXIT,services.transaction_service,,get_transactions_by_customer_id,get_transactions_by_customer_id,runtime,{'customer_id': 1},list,[],,,
+2025-08-26T10:15:23.152492,EXIT,controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,runtime,{'customer_id': 1},tuple,"[{'direct_passthrough': False}, 200]",,,
+2025-08-26T10:15:23.147057,EXIT,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},Response,"[]
+",,/api/transactions/customer/1,GET
+2025-08-26T10:15:23.186572,EXIT,db.account_repo,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},Account,"{'customer_id': 1, 'account_number': '1001', 'balance': 100000.0, 'id': 1}",,,
+2025-08-26T10:15:23.184597,EXIT,services.account_service,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},Account,"{'customer_id': 1, 'account_number': '1001', 'balance': 100000.0, 'id': 1}",,,
+2025-08-26T10:15:23.162141,EXIT,controllers.account_controller,,get_by_customer_id,get_by_customer_id,runtime,{'customer_id': 1},tuple,"[{'direct_passthrough': False}, 200]",,,
+2025-08-26T10:15:23.158459,EXIT,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},Response,"{
+  ""account_number"": ""1001"",
+  ""balance"": 100000.0,
+  ""customer_id"": 1,
+  ""id"": 1
+}
+",,/api/accounts/customer/1,GET
+2025-08-26T10:15:23.532302,ENTER,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},,,,/api/transactions/customer/1,GET
+2025-08-26T10:15:23.536314,ENTER,controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:23.541325,ENTER,services.transaction_service,,get_transactions_by_customer_id,get_transactions_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:23.541325,EXIT,services.transaction_service,,get_transactions_by_customer_id,get_transactions_by_customer_id,runtime,{'customer_id': 1},list,[],,,
+2025-08-26T10:15:23.536314,EXIT,controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,runtime,{'customer_id': 1},tuple,"[{'direct_passthrough': False}, 200]",,,
+2025-08-26T10:15:23.532302,EXIT,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},Response,"[]
+",,/api/transactions/customer/1,GET
+2025-08-26T10:15:30.368673,ENTER,app.controllers.transaction_controller,,create_transaction,create_transaction,json/form/args,{},,,,/api/transactions,OPTIONS
+2025-08-26T10:15:30.368673,EXIT,app.controllers.transaction_controller,,create_transaction,create_transaction,json/form/args,{},Response,,,/api/transactions,OPTIONS
+2025-08-26T10:15:30.634881,ENTER,app.controllers.transaction_controller,,create_transaction,create_transaction,json/form/args,"{'fromCustomerId': 1, 'toCustomerId': 2, 'amount': 100}",,,,/api/transactions,POST
+2025-08-26T10:15:30.639896,ENTER,controllers.transaction_controller,,create_transaction,create_transaction,runtime,{},,,,,
+2025-08-26T10:15:30.646895,ENTER,services.transaction_service,,send_money_by_plsql,send_money_by_plsql,runtime,"{'from_customer_id': 1, 'to_customer_id': 2, 'amount': 100.0}",,,,,
+2025-08-26T10:15:30.651822,ENTER,db.procedure_caller,,call_transfer_money_procedure,call_transfer_money_procedure,runtime,"{'from_customer_id': 1, 'to_customer_id': 2, 'amount': 100.0}",,,,,
+2025-08-26T10:15:30.656845,ENTER,db.procedure_caller,,call_procedure,call_procedure,runtime,"{'name': 'TRANSFER_MONEY', 'params': {'from_customer_id': 1, 'to_customer_id': 2, 'amount': 100.0}}",,,,,
+2025-08-26T10:15:30.663613,ENTER,db.procedure_caller,,<genexpr>,<genexpr>,runtime,{'.0': <dict_keyiterator object at 0x0000019C22D36770>},,,,,
+2025-08-26T10:15:30.663613,EXIT,db.procedure_caller,,<genexpr>,<genexpr>,runtime,{'.0': <dict_keyiterator object at 0x0000019C22D36770>},str,:from_customer_id,,,
+2025-08-26T10:15:30.673282,ENTER,db.procedure_caller,,<genexpr>,<genexpr>,runtime,{'.0': <dict_keyiterator object at 0x0000019C22D36770>},,,,,
+2025-08-26T10:15:30.673282,EXIT,db.procedure_caller,,<genexpr>,<genexpr>,runtime,{'.0': <dict_keyiterator object at 0x0000019C22D36770>},str,:to_customer_id,,,
+2025-08-26T10:15:30.682574,ENTER,db.procedure_caller,,<genexpr>,<genexpr>,runtime,{'.0': <dict_keyiterator object at 0x0000019C22D36770>},,,,,
+2025-08-26T10:15:30.682574,EXIT,db.procedure_caller,,<genexpr>,<genexpr>,runtime,{'.0': <dict_keyiterator object at 0x0000019C22D36770>},str,:amount,,,
+2025-08-26T10:15:30.691597,ENTER,db.procedure_caller,,<genexpr>,<genexpr>,runtime,{'.0': <dict_keyiterator object at 0x0000019C22D36770>},,,,,
+2025-08-26T10:15:30.691597,EXIT,db.procedure_caller,,<genexpr>,<genexpr>,runtime,{'.0': <dict_keyiterator object at 0x0000019C22D36770>},NoneType,None,,,
+2025-08-26T10:15:30.656845,EXIT,db.procedure_caller,,call_procedure,call_procedure,runtime,"{'name': 'TRANSFER_MONEY', 'params': {'from_customer_id': 1, 'to_customer_id': 2, 'amount': 100.0}}",NoneType,None,,,
+2025-08-26T10:15:30.651822,EXIT,db.procedure_caller,,call_transfer_money_procedure,call_transfer_money_procedure,runtime,"{'from_customer_id': 1, 'to_customer_id': 2, 'amount': 100.0}",NoneType,None,,,
+2025-08-26T10:15:30.646895,EXIT,services.transaction_service,,send_money_by_plsql,send_money_by_plsql,runtime,"{'from_customer_id': 1, 'to_customer_id': 2, 'amount': 100.0}",Transaction,"{'amount': -100.0, 'account_id': 1, 'to_customer': 2, 'id': 1, 'type': 'DEBIT', 'from_customer': 1}",,,
+2025-08-26T10:15:30.639896,EXIT,controllers.transaction_controller,,create_transaction,create_transaction,runtime,{},tuple,"[{'direct_passthrough': False}, 200]",,,
+2025-08-26T10:15:30.634881,EXIT,app.controllers.transaction_controller,,create_transaction,create_transaction,json/form/args,"{'fromCustomerId': 1, 'toCustomerId': 2, 'amount': 100}",Response,"{
+  ""account_id"": 1,
+  ""amount"": -100.0,
+  ""fromCustomer"": {
+    ""customerName"": ""John Doe"",
+    ""id"": 1
+  },
+  ""from_customer"": 1,
+  ""id"": 1,
+  ""timestamp"": ""2025-08-26T10:15:30"",
+  ""toCustomer"": {
+    ""customerName"": ""Jane Smith"",
+    ""id"": 2
+  },
+  ""to_customer"": 2,
+  ""type"": ""DEBIT""
+}
+",,/api/transactions,POST
+2025-08-26T10:15:35.303570,ENTER,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},,,,/api/transactions/customer/1,OPTIONS
+2025-08-26T10:15:35.303570,EXIT,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},Response,,,/api/transactions/customer/1,OPTIONS
+2025-08-26T10:15:35.635281,ENTER,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},,,,/api/accounts/customer/1,OPTIONS
+2025-08-26T10:15:35.660294,ENTER,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},,,,/api/transactions/customer/1,OPTIONS
+2025-08-26T10:15:35.635281,EXIT,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},Response,,,/api/accounts/customer/1,OPTIONS
+2025-08-26T10:15:35.664294,ENTER,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},,,,/api/transactions/customer/1,GET
+2025-08-26T10:15:35.662298,ENTER,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},,,,/api/accounts/customer/1,OPTIONS
+2025-08-26T10:15:35.660294,EXIT,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},Response,,,/api/transactions/customer/1,OPTIONS
+2025-08-26T10:15:35.682289,ENTER,controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:35.691656,ENTER,services.transaction_service,,get_transactions_by_customer_id,get_transactions_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:35.662298,EXIT,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},Response,,,/api/accounts/customer/1,OPTIONS
+2025-08-26T10:15:35.691656,EXIT,services.transaction_service,,get_transactions_by_customer_id,get_transactions_by_customer_id,runtime,{'customer_id': 1},list,"[{'amount': -100.0, 'account_id': 1, 'to_customer': 2, 'id': 1, 'type': 'DEBIT', 'from_customer': 1}]",,,
+2025-08-26T10:15:35.682289,EXIT,controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,runtime,{'customer_id': 1},tuple,"[{'direct_passthrough': False}, 200]",,,
+2025-08-26T10:15:35.664294,EXIT,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},Response,"[
+  {
+    ""account_id"": 1,
+    ""amount"": -100.0,
+    ""fromCustomer"": {
+      ""customerName"": ""John Doe"",
+      ""id"": 1
+    },
+    ""from_customer"": 1,
+    ""id"": 1,
+    ""timestamp"": ""2025-08-26T10:15:30"",
+    ""toCustomer"": {
+      ""customerName"": ""Jane Smith"",
+      ""id"": 2
+    },
+    ""to_customer"": 2,
+    ""type"": ""DEBIT""
+  }
+]
+",,/api/transactions/customer/1,GET
+2025-08-26T10:15:35.995304,ENTER,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},,,,/api/accounts/customer/1,GET
+2025-08-26T10:15:36.001362,ENTER,controllers.account_controller,,get_by_customer_id,get_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:36.007536,ENTER,services.account_service,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:36.014145,ENTER,db.account_repo,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:36.014145,EXIT,db.account_repo,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},Account,"{'customer_id': 1, 'account_number': '1001', 'balance': 99900.0, 'id': 1}",,,
+2025-08-26T10:15:36.007536,EXIT,services.account_service,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},Account,"{'customer_id': 1, 'account_number': '1001', 'balance': 99900.0, 'id': 1}",,,
+2025-08-26T10:15:36.001362,EXIT,controllers.account_controller,,get_by_customer_id,get_by_customer_id,runtime,{'customer_id': 1},tuple,"[{'direct_passthrough': False}, 200]",,,
+2025-08-26T10:15:36.055530,ENTER,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},,,,/api/transactions/customer/1,GET
+2025-08-26T10:15:35.995304,EXIT,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},Response,"{
+  ""account_number"": ""1001"",
+  ""balance"": 99900.0,
+  ""customer_id"": 1,
+  ""id"": 1
+}
+",,/api/accounts/customer/1,GET
+2025-08-26T10:15:36.062912,ENTER,controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:36.070211,ENTER,services.transaction_service,,get_transactions_by_customer_id,get_transactions_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:36.070211,EXIT,services.transaction_service,,get_transactions_by_customer_id,get_transactions_by_customer_id,runtime,{'customer_id': 1},list,"[{'amount': -100.0, 'account_id': 1, 'to_customer': 2, 'id': 1, 'type': 'DEBIT', 'from_customer': 1}]",,,
+2025-08-26T10:15:36.062912,EXIT,controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,runtime,{'customer_id': 1},tuple,"[{'direct_passthrough': False}, 200]",,,
+2025-08-26T10:15:36.055530,EXIT,app.controllers.transaction_controller,,get_transactions_by_customer,get_transactions_by_customer,json/form/args,{},Response,"[
+  {
+    ""account_id"": 1,
+    ""amount"": -100.0,
+    ""fromCustomer"": {
+      ""customerName"": ""John Doe"",
+      ""id"": 1
+    },
+    ""from_customer"": 1,
+    ""id"": 1,
+    ""timestamp"": ""2025-08-26T10:15:30"",
+    ""toCustomer"": {
+      ""customerName"": ""Jane Smith"",
+      ""id"": 2
+    },
+    ""to_customer"": 2,
+    ""type"": ""DEBIT""
+  }
+]
+",,/api/transactions/customer/1,GET
+2025-08-26T10:15:36.385845,ENTER,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},,,,/api/accounts/customer/1,GET
+2025-08-26T10:15:36.392298,ENTER,controllers.account_controller,,get_by_customer_id,get_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:36.399288,ENTER,services.account_service,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:36.406174,ENTER,db.account_repo,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},,,,,
+2025-08-26T10:15:36.406174,EXIT,db.account_repo,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},Account,"{'customer_id': 1, 'account_number': '1001', 'balance': 99900.0, 'id': 1}",,,
+2025-08-26T10:15:36.399288,EXIT,services.account_service,,get_account_by_customer_id,get_account_by_customer_id,runtime,{'customer_id': 1},Account,"{'customer_id': 1, 'account_number': '1001', 'balance': 99900.0, 'id': 1}",,,
+2025-08-26T10:15:36.392298,EXIT,controllers.account_controller,,get_by_customer_id,get_by_customer_id,runtime,{'customer_id': 1},tuple,"[{'direct_passthrough': False}, 200]",,,
+2025-08-26T10:15:36.385845,EXIT,app.controllers.account_controller,,get_by_customer_id,get_by_customer_id,json/form/args,{},Response,"{
+  ""account_number"": ""1001"",
+  ""balance"": 99900.0,
+  ""customer_id"": 1,
+  ""id"": 1
+}
+",,/api/accounts/customer/1,GET

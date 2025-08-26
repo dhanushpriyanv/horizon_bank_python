@@ -1,0 +1,4 @@
+﻿Python File,Method Name
+services.transaction_service,send_money_by_plsql
+services.transaction_service,pay_bill_by_plsql
+services.transaction_service,add_money_by_plsql

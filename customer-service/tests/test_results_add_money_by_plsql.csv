@@ -1,0 +1,2 @@
+Input Parameters,Expected Output,Actual Output,Status
+"{'customer_id': '2', 'amount': 1700}","{'amount': 1700.0, 'account_id': 2, 'to_customer': 2, 'id': 7, 'type': 'ADD_MONEY', 'from_customer': 2}","{'exception': ""'Transaction' object has no attribute 'to_dict'""}",FAIL

@@ -1,0 +1,2 @@
+timestamp,Event Type,Python File,Class Name,Method Name,Short Summary,Input Type,Input Parameters,Return Type,Output Response,Error,API Path,HTTP Method
+2025-08-01T07:02:38.053691,EXIT,services.transaction_service,,send_money_by_plsql,send_money_by_plsql,runtime,"{'from_customer_id': 1, 'to_customer_id': 2, 'amount': 11.0}",Transaction,"{'amount': -11.0, 'account_id': 1, 'to_customer': 2, 'id': 1, 'type': 'DEBIT', 'from_customer': 1}",,,
